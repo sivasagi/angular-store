@@ -12,7 +12,7 @@ export class EquipmentDataService {
 
     loadEquipmentData() {
         // return this.httpClient.get(`/api/vdp/v1.0/vehicle/equipment/statement/${vehicleId}`)
-        return this.http.get(`https://api.myjson.com/bins/uxtft`)
+        return this.http.get(`https://api.myjson.com/bins/n3y51`)
             .retry(3)
             .map(res => res.json())
             // .map(res => res)
